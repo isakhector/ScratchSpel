@@ -3,12 +3,18 @@
     box-sizing: border-box;
 }
 
+body{
+    margin-bottom: 5%;
+}
+
 header{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
     color: azure;
     background-color: hsl(260 60% 60% / 1);
-    padding: 0.25%;
-    margin-bottom:2%;
+    padding: 0.05%;
+    margin-bottom:5%;
 }
 
 .main-container{
@@ -20,7 +26,7 @@ header{
 
 }
 
-.box1,.box2,.box3,.box4{
+.box1,.box2,.box3,.box4, .box5, .box6{
     border: 2px solid #b8b8b8;
     padding:15px;
     width:35vw;
@@ -28,35 +34,34 @@ header{
     border-radius: 2vw;
     background-position: center;
     text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .box1{
     background-image: url(skybound.png);
-    background-size:cover;
-    background-repeat: no-repeat;
 }
 
 .box2{
     background-image: url(endlessmathtest.png);
-    background-size:cover;
-    background-repeat: no-repeat;
 }
 
 .box3{
     background-image: url(treeclicker.png);
-    background-size:cover;
-    background-repeat: no-repeat;
 }
 
 .box4{
     background-image: url(oceanparallax.png);
-    background-size:cover;
-    background-repeat: no-repeat;
 }
 
-a{
-    color: hsl(260 60% 60% / 1);
+.box5{
+    background-image: url(magicwand.png);
 }
+
+.box6{
+    background-image: url(scratchcatonatrain.png);
+}
+
 a:hover{
-    color: hsl(261, 40%, 39%);
+    border-style:groove;
 }
