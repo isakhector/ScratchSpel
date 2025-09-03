@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    color: azure;
+    background-color: hsl(260 60% 60% / 1);
+    padding: 0.25%;
+    margin-bottom:2%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5vw;
+
+}
+
+.box1,.box2,.box3,.box4{
+    border: 2px solid #b8b8b8;
+    padding:15px;
+    width:35vw;
+    height:25vw;
+    border-radius: 2vw;
+    background-position: center;
+    text-align: center;
+}
+
+.box1{
+    background-image: url(skybound.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    background-image: url(endlessmathtest.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.box3{
+    background-image: url(treeclicker.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.box4{
+    background-image: url(oceanparallax.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: hsl(260 60% 60% / 1);
+}
+a:hover{
+    color: hsl(261, 40%, 39%);
+}
